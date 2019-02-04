@@ -1,6 +1,32 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 1.3em;
+}
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  padding-bottom: 20px;
+  line-height: 1;
+}
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+.author {
+  padding-bottom: 15px;
+  font-weight: bold;
 }
 
 nav {
@@ -49,4 +75,28 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
 }
